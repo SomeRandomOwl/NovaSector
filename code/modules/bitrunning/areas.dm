@@ -14,7 +14,7 @@
 	name = "Virtual Domain Ruins"
 	icon_state = "bit_ruin"
 	icon = 'icons/area/areas_station.dmi'
-	area_flags = UNIQUE_AREA | NOTELEPORT | ABDUCTOR_PROOF | EVENT_PROTECTED | HIDDEN_AREA
+	area_flags = UNIQUE_AREA | NOTELEPORT | ABDUCTOR_PROOF | EVENT_PROTECTED | HIDDEN_AREA | QUIET_LOGS // NOVA EDIT ADDITION - QUIET_LOGS
 	has_gravity = STANDARD_GRAVITY
 	requires_power = FALSE
 
