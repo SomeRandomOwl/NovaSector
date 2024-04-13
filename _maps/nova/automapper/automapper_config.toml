@@ -207,7 +207,7 @@ trait_name = "Station"
 
 # Icedyne Icedyne Upper Level
 [templates.icebox_icedyne_upper]
-map_files = ["icemoon_underground_interdyne_lower.dmm"]
+map_files = ["icemoon_underground_interdyne_upper.dmm"]
 directory = "_maps/RandomRuins/IceRuins/nova/"
 required_map = "IceBoxStation.dmm"
 coordinates = [10, 10, 2]
