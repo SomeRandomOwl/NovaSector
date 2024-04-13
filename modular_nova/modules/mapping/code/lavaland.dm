@@ -13,16 +13,6 @@
 	cost = 1000
 	allow_duplicates = FALSE
 
-/datum/map_template/ruin/lavaland/nova/interdyne_base
-	name = "Lava-Ruin Interdyne Pharmaceutics Nova Sector Base 3c76928"
-	id = "lava-base"
-	description = "A planetside Interdyne research facility developing biological weapons; it is closely guarded by an elite team of agents."
-	prefix = "_maps/RandomRuins/LavaRuins/nova/"
-	suffix = "lavaland_surface_interdyne_base1.dmm"
-	allow_duplicates = FALSE
-	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/nova/interdyne_base)
-	always_place = TRUE
-
 /datum/map_template/ruin/lavaland/arena
 	name = "Lava-Ruin Grand Arena"
 	id = "arena"
