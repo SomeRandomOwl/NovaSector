@@ -915,7 +915,7 @@
 /area/ruin/interdyne_planetary_base/serv/bar)
 "hO" = (
 /turf/open/openspace/icemoon,
-/area/ruin/interdyne_planetary_base)
+/area/lavaland/surface/outdoors)
 "hQ" = (
 /obj/effect/mob_spawn/ghost_role/human/interdyne_planetary_base/shaftminer/ice{
 	dir = 4
@@ -3232,7 +3232,7 @@
 "Go" = (
 /obj/structure/flora/rock/pile/icy/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
-/area/ruin/interdyne_planetary_base)
+/area/lavaland/surface/outdoors)
 "Gq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -3275,9 +3275,6 @@
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/interdyne_planetary_base/main)
-"GO" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
 "GQ" = (
 /obj/effect/turf_decal/tile/dark_red/half,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -3890,7 +3887,7 @@
 /area/ruin/interdyne_planetary_base/serv/hydr)
 "Mv" = (
 /turf/closed/mineral/random/snow,
-/area/ruin/interdyne_planetary_base)
+/area/lavaland/surface/outdoors)
 "MC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3914,13 +3911,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/ruin/interdyne_planetary_base/cargo/obs)
-"Nd" = (
-/obj/machinery/door/poddoor{
-	id = "interdynedorms"
-	},
-/obj/effect/spawner/structure/window/reinforced/shuttle,
-/turf/open/floor/plating/reinforced,
-/area/space)
 "Ne" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -5703,7 +5693,7 @@ hO
 hO
 hO
 hO
-GO
+Nw
 Wi
 Nw
 Nw
@@ -6714,7 +6704,7 @@ HU
 SH
 PV
 ug
-Nd
+XE
 hO
 hO
 Mv
