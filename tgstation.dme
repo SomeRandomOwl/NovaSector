@@ -8793,6 +8793,8 @@
 #include "modular_nova\modules\wargame_projectors\code\holograms.dm"
 #include "modular_nova\modules\wargame_projectors\code\projectors.dm"
 #include "modular_nova\modules\window_airbags\code\window_airbag.dm"
+#include "modular_nova\modules\work_lockers\code\persistant_locker_subsystem.dm"
+#include "modular_nova\modules\work_lockers\code\persistant_lockers.dm"
 #include "modular_nova\modules\wrestlingring\code\wrestlingring.dm"
 #include "modular_nova\modules\xenoarch\code\modules\hydroponics\amauri.dm"
 #include "modular_nova\modules\xenoarch\code\modules\hydroponics\gelthi.dm"
