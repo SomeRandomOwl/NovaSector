@@ -121,6 +121,6 @@
 					var/obj/item/organ/heart/cursed/cheart = new /obj/item/organ/heart/cursed()
 					cheart.replace_into(affected_mob)
 					playsound(affected_mob, 'sound/effects/hallucinations/far_noise.ogg', 50, 1)
-					log_game("[key_name(affected_mob)], had their heart replaced with a cursed heart as a result of Hereditary Manifold Sickness reaching stage five and rolling four on the effect")
+					log_game("[key_name(affected_mob)], had their heart replaced with a cursed heart as a result of Hereditary Manifold Sickness reaching stage five and rolling five on the effect")
 					update_stage(1)
 				// NOVA EDIT ADDITION END
