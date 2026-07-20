@@ -87,6 +87,7 @@
 					affected_mob.visible_message(span_warning("[affected_mob] is erased from the timeline!"), span_userdanger("You are ripped from the timeline!"))
 					affected_mob.investigate_log("has been dusted / deleted by [name].", INVESTIGATE_DEATHS)
 					affected_mob.ghostize(can_reenter_corpse = FALSE)
+					log_game("[key_name(affected_mob)], Got QDeleated as a result of Hereditary Manifold Sickness reaching stage five and rolling two on the effect") //NOVA EDIT ADDITION
 					qdel(affected_mob)
 				// NOVA EDIT ADDITION START
 				if(3)
@@ -107,9 +108,11 @@
 					playsound(src,'sound/effects/sparks/sparks4.ogg',50,TRUE)
 					qdel(tunnel)
 					update_stage(1)
+					log_game("[key_name(affected_mob)], Got randomly jaunted and injured as a result of Hereditary Manifold Sickness reaching stage five and rolling three on the effect")
 				if(4)
 					affected_mob.visible_message(span_warning("[affected_mob] is torn apart!"), span_userdanger("Your atoms accelerate into criticality!"))
 					affected_mob.gib(DROP_ALL_REMAINS)
+					log_game("[key_name(affected_mob)], Got randomly gibbed as a result of Hereditary Manifold Sickness reaching stage five and rolling four on the effect")
 					update_stage(1)
 				if(5)
 					if(affected_mob.stat == CONSCIOUS)
@@ -118,5 +121,6 @@
 					var/obj/item/organ/heart/cursed/cheart = new /obj/item/organ/heart/cursed()
 					cheart.replace_into(affected_mob)
 					playsound(affected_mob, 'sound/effects/hallucinations/far_noise.ogg', 50, 1)
+					log_game("[key_name(affected_mob)], had their heart replaced with a cursed heart as a result of Hereditary Manifold Sickness reaching stage five and rolling four on the effect")
 					update_stage(1)
 				// NOVA EDIT ADDITION END
